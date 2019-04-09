@@ -6,9 +6,9 @@ $orange: #ea5a4b;
 .social{
   padding-right: 5%;
   a{
+    text-decoration: none;
     padding-right: 15px;
   }
-
 }
 
 //navbar///////////////////////////////
@@ -147,5 +147,35 @@ button::-moz-focus-inner {
         font-size: 10px;
       }
     }
+  }
+}
+
+
+
+
+.qwe{
+
+  canvas {
+    position: absolute;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+  }
+
+  img {
+    position: absolute;
+    cursor: pointer;
+  }
+
+  #container {
+    //position: absolute;
+    width: 768px;
+    height: 485px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
   }
 }

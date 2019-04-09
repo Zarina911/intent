@@ -1,6 +1,7 @@
 .social {
   padding-right: 5%; }
   .social a {
+    text-decoration: none;
     padding-right: 15px; }
 
 .navbar-light .navbar-toggler {
@@ -117,5 +118,23 @@ button::-moz-focus-inner {
       top: 20%; }
       .block_fotorama .text_left h2 {
         font-size: 10px; } }
+
+.qwe canvas {
+  position: absolute;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden; }
+.qwe img {
+  position: absolute;
+  cursor: pointer; }
+.qwe #container {
+  width: 768px;
+  height: 485px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto; }
 
 /*# sourceMappingURL=style.css.map */
