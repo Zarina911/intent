@@ -99,7 +99,7 @@ button::-moz-focus-inner {
   position: relative; }
   .block_fotorama .text_left {
     position: absolute;
-    top: 22%;
+    top: 30%;
     z-index: 5;
     padding-left: 40px; }
     .block_fotorama .text_left h2 {
@@ -107,17 +107,32 @@ button::-moz-focus-inner {
       color: white;
       font-family: 'Bitter', sans-serif;
       font-weight: bold;
-      font-size: 50px; }
+      font-size: 40px; }
+  @media (max-width: 1200px) {
+    .block_fotorama .text_left {
+      top: 30%; }
+      .block_fotorama .text_left h2 {
+        font-size: 24px; } }
+  @media (max-width: 991px) {
+    .block_fotorama .text_left {
+      top: 27%; }
+      .block_fotorama .text_left h2 {
+        font-size: 21px; } }
   @media (max-width: 767px) {
     .block_fotorama .text_left {
-      top: 18%; }
+      top: 28%; }
       .block_fotorama .text_left h2 {
-        font-size: 20px; } }
-  @media (max-width: 450px) {
+        font-size: 18px; } }
+  @media (max-width: 575px) {
     .block_fotorama .text_left {
-      top: 20%; }
+      top: 28%; }
       .block_fotorama .text_left h2 {
-        font-size: 10px; } }
+        font-size: 16px; } }
+  @media (max-width: 320px) {
+    .block_fotorama .text_left {
+      top: 28%; }
+      .block_fotorama .text_left h2 {
+        font-size: 14px; } }
 
 .qwe canvas {
   position: absolute;
@@ -127,7 +142,8 @@ button::-moz-focus-inner {
   -ms-backface-visibility: hidden; }
 .qwe img {
   position: absolute;
-  cursor: pointer; }
+  cursor: pointer;
+  justify-content: center; }
 .qwe #container {
   width: 768px;
   height: 485px;

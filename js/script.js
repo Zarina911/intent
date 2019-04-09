@@ -1,3 +1,5 @@
+
+///////////////////////////////////////////NAVBAR
 $(document).ready(function () {
 
     $('.first-button').on('click', function () {
@@ -14,14 +16,13 @@ $(document).ready(function () {
     });
 });
 
-
-
+////////////////////////////////////////////TABS
 
 $(function () {
     $('#myTab li:last-child a').tab('show')
 });
 
-
+////////////////////////////////////////////qwe
 
 const TWO_PI = Math.PI * 2;
 
@@ -29,8 +30,8 @@ var images = [],
     imageIndex = 0;
 
 var image,
-    imageWidth = 768,
-    imageHeight = 485;
+    imageWidth = 1200,
+    imageHeight = 720;
 
 var vertices = [],
     indices = [],
@@ -51,7 +52,9 @@ window.onload = function() {
         'images/gallery_25.png',
         'images/gallery_26.png',
         'images/gallery_27.png',
-        'images/gallery_28.png'
+        'images/gallery_28.png',
+        'images/gallery_29.png',
+        'images/gallery_30.png'
         ],
         image,
         loaded = 0;
@@ -189,10 +192,7 @@ function shatterCompleteHandler() {
     placeImage();
 }
 
-//////////////
 // MATH UTILS
-//////////////
-
 function randomRange(min, max) {
     return min + (max - min) * Math.random();
 }
@@ -205,10 +205,7 @@ function sign(x) {
     return x < 0 ? -1 : 1;
 }
 
-//////////////
 // FRAGMENT
-//////////////
-
 Fragment = function(v0, v1, v2) {
     this.v0 = v0;
     this.v1 = v1;
@@ -260,4 +257,4 @@ Fragment.prototype = {
         this.ctx.drawImage(image, 0, 0);
     }
 };
-
+/////////////////////////////////////////qwe END.

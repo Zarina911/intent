@@ -114,8 +114,8 @@
 
 .fotorama--hidden, .fotorama__load {
     position: absolute;
-    left: -99999px;
-    top: -99999px;
+    left: -100px;
+    top: -100px;
     z-index: -1
 }
 
@@ -171,7 +171,7 @@
     right: 0 !important;
     bottom: 0 !important;
     float: none !important;
-    z-index: 2147483647 !important;
+    z-index: 2 !important;
     background: #000;
     width: 100% !important;
     height: 100% !important;
@@ -267,7 +267,7 @@
 }
 
 .fotorama__wrap--only-active .fotorama__nav, .fotorama__wrap--only-active .fotorama__stage {
-    max-width: 99999px !important
+    max-width: 2000px !important
 }
 
 .fotorama__wrap--only-active .fotorama__stage__frame {
@@ -387,10 +387,9 @@
     z-index: 9;
     top: 0;
     left: 0;
-    border-style: solid;
-    border-color: #ea5a4b;
-    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, .25), rgba(64, 64, 64, .1));
-    transform: translate3d(121px, 3px, 0px) !important;
+    border: #ea5a4b solid;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, .25), rgba(64, 64, 64, 0.1));
+    transform: translate3d(0px, 0px, 0px);
 
 }
 
@@ -483,7 +482,7 @@
     bottom: 0;
     left: 0;
     position: absolute;
-    z-index: 10
+    z-index: 2
 }
 
 @-moz-document url-prefix() {
@@ -494,7 +493,7 @@
 
 .fotorama__arr, .fotorama__fullscreen-icon, .fotorama__video-close, .fotorama__video-play {
     position: absolute;
-    z-index: 11;
+    z-index: 5;
     cursor: pointer
 }
 
@@ -558,8 +557,8 @@
 .fotorama__arr--disabled {
     pointer-events: none;
     cursor: default;
-    *display: none;
-    opacity: .1
+    display: none;
+    opacity: 1
 }
 
 .fotorama__fullscreen-icon {
@@ -568,7 +567,7 @@
     top: 2px;
     right: 2px;
     background-position: 0 -32px;
-    z-index: 20
+    z-index: 2
 }
 
 .fotorama__arr:focus, .fotorama__fullscreen-icon:focus {
@@ -613,7 +612,7 @@
     top: 0;
     right: 0;
     background-position: -64px 0;
-    z-index: 20;
+    z-index: 2;
     opacity: 0
 }
 
