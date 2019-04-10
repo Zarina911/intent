@@ -105,7 +105,7 @@ button::-moz-focus-inner {
     .block_fotorama .text_left h2 {
       background-color: rgba(0, 0, 0, 0.7);
       color: white;
-      font-family: 'Bitter', sans-serif;
+      font-family: "Bitter";
       font-weight: bold;
       font-size: 40px; }
   @media (max-width: 1200px) {
@@ -134,6 +134,20 @@ button::-moz-focus-inner {
       .block_fotorama .text_left h2 {
         font-size: 14px; } }
 
+.block_text-center {
+  padding-left: 65px; }
+  .block_text-center h2 {
+    font-size: 18px;
+    font-family: "Bitter";
+    color: #252525;
+    line-height: 1.2;
+    font-weight: bold; }
+  .block_text-center p {
+    font-size: 14px;
+    max-width: 265px;
+    color: #5c5c5c;
+    line-height: 1.143; }
+
 .qwe canvas {
   position: absolute;
   backface-visibility: hidden;
@@ -152,5 +166,34 @@ button::-moz-focus-inner {
   top: 0;
   bottom: 0;
   margin: auto; }
+
+footer {
+  background-image: url(../images/footer_container.png);
+  background-size: cover;
+  z-index: -1;
+  top: -30px;
+  position: relative;
+  padding: 80px 50px;
+  border-top: 8px solid #ea5a4b;
+  color: #adadad;
+  font-weight: bold; }
+  footer h3 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 25px; }
+  footer .recent p {
+    border-bottom: 1px solid #3b3b3b;
+    padding-bottom: 15px; }
+  footer .social_media ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 305px;
+    padding-left: 0; }
+    footer .social_media ul li {
+      padding-right: 8px;
+      padding-bottom: 9px; }
 
 /*# sourceMappingURL=style.css.map */

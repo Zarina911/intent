@@ -46,6 +46,7 @@ window.onload = function() {
 
     // images from reddit/r/wallpapers
     var urls = [
+        'images/gallery_21.png',
         'images/gallery_22.png',
         'images/gallery_23.png',
         'images/gallery_24.png',
