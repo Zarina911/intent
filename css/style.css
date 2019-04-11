@@ -178,6 +178,16 @@ button::-moz-focus-inner {
 .block_text-center span:hover {
   background-color: #ea5a4b; }
 
+.tabs_img a {
+  font-size: 14px;
+  font-family: "Bitter";
+  color: #252525;
+  line-height: 1.143;
+  background-color: transparent; }
+.tabs_img a:hover {
+  background-color: #ea5a4b;
+  color: white; }
+
 .qwe canvas {
   position: absolute;
   backface-visibility: hidden;

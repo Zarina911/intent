@@ -1,6 +1,6 @@
 $orange: #ea5a4b;
 $bitter: 'Bitter';
-
+////////////////////////////pre
 #p_prldr {
   position: fixed;
   left: 0;
@@ -201,7 +201,7 @@ button::-moz-focus-inner {
     }
   }
 }
-
+///////////////////////////////center_block_text
 .block_text-center {
 
   h2 {
@@ -229,7 +229,20 @@ button::-moz-focus-inner {
     background-color: $orange;
   }
 }
-
+ /////////////////////////////tabs
+.tabs_img{
+  a{
+    font-size: 14px;
+    font-family: $bitter;
+    color: rgb(37, 37, 37);
+    line-height: 1.143;
+    background-color: transparent;
+  }
+  a:hover{
+    background-color: $orange;
+    color: white;
+  }
+}
 .qwe {
 
   canvas {
@@ -257,7 +270,7 @@ button::-moz-focus-inner {
     margin: auto;
   }
 }
-
+///////////////////////footer
 footer {
   background-image: url(../images/footer_container.png);
   background-size: cover;
