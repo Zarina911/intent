@@ -327,8 +327,8 @@
 
 }
 .fotorama__nav--thumbs .fotorama__nav__frame {
-    padding: 5px 19px !important;
-}
+     /*padding: 5px 19px !important;*/
+ }
 
 .fotorama__nav--thumbs .fotorama__nav__frame {
     /*padding-left: 0 !important*/
@@ -339,7 +339,7 @@
 }
 
 .fotorama__nav--thumbs .fotorama__nav__frame--dot {
-    display: none
+    display: none;
 }
 
 .fotorama__dot {
@@ -387,8 +387,8 @@
     z-index: 9;
     top: 0;
     left: 0;
-    border: #ea5a4b solid;
-    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, .25), rgba(64, 64, 64, 0.1));
+    border: none !important;
+    background-image: none !important;
     transform: translate3d(0px, 0px, 0px);
 
 }
